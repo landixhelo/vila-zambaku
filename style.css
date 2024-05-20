@@ -1,0 +1,402 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #deb666;
+}
+
+.btn {
+    padding:5px 25px;
+    background-color: #deb666;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    border: 3px solid #deb666;
+    border-radius: 0;
+}
+
+.btn:hover {
+    border: 3px solid #a88640;
+    background-color: #a88640;
+}
+
+.btn-1 {
+    border: 3px solid #deb666;
+    padding: 10px 20px;
+    background-color: #deb666;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    border: 3px solid #a88640;
+    background-color: #a88640;
+}
+
+
+@keyframes sidein {
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    to {transform: translateX(0);
+    opacity: 1;}
+}
+
+.fadeinright {
+    animation: sidein 2s ease-in-out;
+}
+
+@keyframes sidetop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {transform: translateY(0);
+    opacity: 1; }
+}
+
+.fadeintop {
+    animation: sidetop 2s ease-in-out;
+}
+
+@keyframes  sideleft {
+    from {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fadeinleft {
+    animation: sideleft 2s ease-in-out;
+}
+
+/*=====index.html=====*/
+
+/* about-vila */
+
+#about-home {
+    background: url(/image/Ksamili.jpg) rgba(0, 0, 0, 0.35) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+#about-contact {
+    background: url(/image/Ksamili.jpg) rgba(0, 0, 0, 0.35) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+
+#about-vila {
+    background-color: #f7f7f7;
+}
+
+.about-img-z {
+    margin-top: -50%;
+    margin-left: 35%;
+    border: 10px solid #f7f7f7;
+}
+
+.dsc-home {
+    margin-top: 150px;
+}
+
+.dsc-home p {
+    color: gray;
+    font-size: 18px;
+}
+
+/* facilities */
+#facilities {
+    padding: 40px 0;
+}
+
+.facilities {
+    margin-top: 20px;
+}
+
+.facilities i {
+    color: #FFD166;
+    font-size: 35px;
+}
+
+.facilities p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: grey;
+}
+
+/* rooms */
+.rooms-cards {
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(158,158,158,0.49);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(158,158,158,0.49);
+    box-shadow: 0px 0px 10px 5px rgba(158,158,158,0.49);
+    border-radius: 5px;
+}
+
+
+
+.rooms-cardss i {
+    font-size: 30px;
+    margin: 10px 20px;
+    color: #a88640;
+    cursor: pointer;
+}
+
+.rooms-cardss .card{
+    transition: transform 0.4s ease;
+}
+
+.rooms-cardss .card:hover {
+    transform: scale(1.05);
+}
+.rooms-cardss-1 {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.rooms-cardss-1:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.rooms-cardss-1 i{
+    font-size: 20px;
+    color: #a88640;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/*=====ABOUT=====*/
+
+/* About About */
+#about-about {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+/* Accomodation */
+#accommodation {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.room-dsc {
+    margin-top: 110px;
+}
+
+.card-bck {
+    background: url(/image/Ksamili.jpg) rgba(0, 0, 0, 0.35) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+/* Offer */
+
+#offer .card-title {
+    color: #404040;
+}
+
+#offer .card-text {
+    color: black;
+}
+
+/*=====ROOMS=====*/
+#room-desc {
+    padding: 40px 0;
+}
+#room-desc h3 {
+    color: white;
+    font-size: 22px;
+}
+
+#room-desc h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.room-img {
+    padding: 30px 0;
+}
+
+.room-dsc h5 {
+    color: white;
+    font-size: 22px;
+}
+
+.room-dsc p {
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#room-desc .carousel {
+    padding: 30px 0;
+}
+
+/*=====ROOMS=====*/
+.room-description i {
+    font-size: 25px;
+    margin:20px 10px;
+    color: #deb666;
+}
+
+
+/*=====CONTACT=====*/
+
+#card-contact .card-title {
+    color: grey;
+    font-size: 20px;
+}
+
+#card-contact .card {
+    height: 170px;
+}
+
+#card-contact .card-body {
+    line-height: 40px;
+}
+
+#card-contact .card-text {
+    font-size: 20px;
+    color: #404040;
+}
+
+#card-contact .card-body i {
+    font-size: 30px;
+    color: #FFD166;
+}
+
+/* footer */
+footer  i {
+    color: #FFD166;
+}
+
+.footer-location p{ 
+    margin-left: 15px;
+    margin-top: -10px;
+    font-size: 19px;
+    color: grey;
+}
+
+.footer-location i {
+    font-size: 23px;
+}
+
+.footer-phone a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.footer-email a{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+
+.footer-email p {
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+
+.copyright h3 {
+    font-size: 27px;
+    color: grey;
+}
+
+.nav-footer ul li{
+    list-style: none;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.nav-footer a:hover {
+    color: #deb666;
+}
+
+@media (max-width:991px) {
+    .navbar {
+        background-color: #ffffff;
+    }
+    .collapse {
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    #testimonials-home .card-body {
+        line-height:40px!important;
+    }
+
+    #contact .contact {
+        margin-top: 20px!important;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .dsc-home {
+        margin-top: -50px;
+    }
+
+    .accordion {
+        margin-top: -100px;
+    }
+
+    #card-contact .card {
+        margin: 10px 0;
+    }
+
+    #room-desc .room-description {
+        margin-top: 50px!important;
+        
+    }
+
+    #room-desc .room-book  {
+        padding: 30px;
+    }
+    #room-desc .room-book button {
+        margin-left: 120px;
+    }
+  
+}
